@@ -1,0 +1,86 @@
+[
+    {
+      "image": "https://example.com/images/car1.jpg",
+      "title": "2023 Toyota Camry",
+      "price": "$25,000",
+      "description": "A reliable and fuel-efficient sedan with advanced safety features."
+    },
+    {
+      "image": "https://example.com/images/car2.jpg",
+      "title": "2022 Honda Civic",
+      "price": "$22,000",
+      "description": "A stylish and sporty compact car with excellent handling."
+    },
+    {
+      "image": "https://example.com/images/car3.jpg",
+      "title": "2021 Ford F-150",
+      "price": "$30,000",
+      "description": "A powerful and versatile pickup truck with a variety of configurations."
+    },
+    {
+      "image": "https://example.com/images/car4.jpg",
+      "title": "2020 Tesla Model 3",
+      "price": "$40,000",
+      "description": "A high-performance electric sedan with advanced technology."
+    },
+    {
+      "image": "https://example.com/images/car5.jpg",
+      "title": "2019 BMW 3 Series",
+      "price": "$35,000",
+      "description": "A luxurious and sporty sedan with a powerful engine."
+    },
+    {
+      "image": "https://example.com/images/car6.jpg",
+      "title": "2023 Hyundai Sonata",
+      "price": "$24,000",
+      "description": "A spacious and comfortable midsize sedan with a modern design."
+    },
+    {
+      "image": "https://example.com/images/car7.jpg",
+      "title": "2022 Kia Sportage",
+      "price": "$26,000",
+      "description": "A stylish and practical compact SUV with plenty of features."
+    },
+    {
+      "image": "https://example.com/images/car8.jpg",
+      "title": "2021 Nissan Rogue",
+      "price": "$27,000",
+      "description": "A comfortable and versatile crossover SUV with ample cargo space."
+    },
+    {
+      "image": "https://example.com/images/car9.jpg",
+      "title": "2020 Subaru Outback",
+      "price": "$28,000",
+      "description": "A rugged and capable all-wheel-drive wagon with excellent off-road performance."
+    },
+    {
+      "image": "https://example.com/images/car10.jpg",
+      "title": "2019 Jeep Wrangler",
+      "price": "$32,000",
+      "description": "A legendary off-road vehicle with unmatched capability and style."
+    },
+    {
+      "image": "https://example.com/images/car11.jpg",
+      "title": "2023 Ford Mustang",
+      "price": "$30,000",
+      "description": "A classic American muscle car with powerful performance and iconic design."
+    },
+    {
+      "image": "https://example.com/images/car12.jpg",
+      "title": "2022 Chevrolet Corvette",
+      "price": "$60,000",
+      "description": "A high-performance sports car with stunning looks and exhilarating performance."
+    },
+    {
+      "image": "https://example.com/images/car13.jpg",
+      "title": "2021 Porsche 911",
+      "price": "$100,000",
+      "description": "A legendary sports car with unparalleled performance and luxury."
+    },
+    {
+      "image": "https://example.com/images/car14.jpg",
+      "title": "2020 Lamborghini Huracan",
+      "price": "$200,000",
+      "description": "An exotic supercar with mind-blowing acceleration and stunning design."
+    }
+  ]
