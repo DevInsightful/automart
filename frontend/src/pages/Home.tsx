@@ -1,16 +1,17 @@
-import React from 'react'
-import Header from '../components/Header'
-import Navbar from '../components/Navbar'
-import CarList from '../components/CarList'
+import React from "react";
+import { Navbar, Header, CarList, Footer } from "../components";
+import { Products } from ".";
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
-        <Header/>
-        <CarList/>
+      <Navbar />
+      <Header />
+      <CarList />
+      <Products />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

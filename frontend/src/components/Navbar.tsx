@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { UserContext } from "../context/UserContextProvider";
 const Navbar = () => {
-  const routes = ["Home", "About", "Cars", "Contact"];
+  // const user = useContext(UserContext);
+  let user = null
+  const routes = ["/", "/about", "/cars", "/contact"];
   const nav = routes.map((item, idx) => {
+    let slicedItem = item.slice(1);
+    slicedItem = item == "/" ? "Home" : slicedItem;
     return (
-      <li className="text-white" key={idx}>
-        {item}
-      </li>
+      <Link to={item}>
+        <li className="text-white" key={idx}>
+          {slicedItem.charAt(0).toUpperCase() + slicedItem.slice(1)}
+        </li>
+      </Link>
     );
   });
   return (
@@ -18,7 +26,11 @@ const Navbar = () => {
       </p>
       <ul className="flex gap-5">{nav}</ul>
 
-      <FaShoppingCart className="text-white" />
+      {user ? (
+        <FaShoppingCart className="text-white" />
+      ) : (
+        <Link to={"/login"} className="text-white">Login</Link>
+      )}
     </div>
   );
 };
